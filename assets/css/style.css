@@ -3702,3 +3702,20 @@ to {
 }
 
 /* Preloader -------------------------------------------------------*/
+
+
+/* copyright line --------------------------------------------*/
+.copyright {
+    padding: 20px 0;
+    color: #ffffff; /* or your preferred text color */
+    font-size: 14px;
+    text-align: right;
+    font-family: Arial, sans-serif;
+}
+
+.designer-credit {
+    margin-left: 20px; /* space between copyright and designer credit */
+    white-space: nowrap; /* keeps designer credit on one line */
+}
+
+/* copyright line --------------------------------------------*/
