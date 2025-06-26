@@ -2143,7 +2143,6 @@ h6:before{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(../images/practicearea-bgimage.jpg);
     transition: all 0.3s ease-in-out;
 }
 .practice-con .practice-box{
