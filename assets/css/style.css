@@ -3719,3 +3719,135 @@ to {
 }
 
 /* copyright line --------------------------------------------*/
+
+/* hero section images */
+
+/* Banner Container */
+.sub_banner_con {
+    position: relative;
+    overflow: hidden;
+    padding: 100px 0; /* Adjust as needed */
+}
+
+/* Hero Image Styling */
+.hero-bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Ensure content stays on top */
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+/* service info images */
+
+/* ===== Base Card Styles ===== */
+.practice-box {
+    height: 100%; /* Fill parent */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #eee; /* Optional: visual consistency */
+    border-radius: 8px;
+    overflow: hidden; /* Keeps images contained */
+}
+
+/* ===== Equal-Height Images ===== */
+.practice-box img.img-fluid {
+    width: 100%;
+    height: 180px; /* Default height (adjust as needed) */
+    object-fit: cover; /* Prevents distortion */
+}
+
+/* ===== Responsive Image Heights ===== */
+@media (max-width: 992px) { /* Tablet */
+    .practice-box img.img-fluid {
+        height: 160px;
+    }
+}
+@media (max-width: 768px) { /* Mobile Landscape */
+    .practice-box img.img-fluid {
+        height: 140px;
+    }
+}
+@media (max-width: 576px) { /* Mobile Portrait */
+    .practice-box img.img-fluid {
+        height: 120px;
+    }
+}
+
+/* ===== Equal Card Heights ===== */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-lg-4, .col-md-6, .col-sm-6, .col-12 {
+    display: flex; /* Critical for equal heights */
+    margin-bottom: 30px; /* Spacing between rows */
+}
+.box {
+    flex: 1; /* Stretch to fill column */
+}
+
+/* ===== Content Alignment ===== */
+.practice-box h5 {
+    margin: 15px 0 10px;
+    font-size: 1.25rem;
+}
+.practice-box p {
+    flex-grow: 1; /* Pushes button to bottom */
+    margin-bottom: 15px;
+    font-size: 0.875rem;
+}
+.practice-box a {
+    display: inline-block;
+    margin-top: auto; /* Aligns button to bottom */
+    color: #0066cc; /* Your theme color */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Background Images Only */
+.services-bg {
+  background: url('/assets/images/heroimage.jpg') center/cover no-repeat !important;
+}
+
+.contact-bg {
+  background: url('/assets/images/about-5.jpg') center/cover no-repeat !important;
+}
+
+.case-bg {
+  background: url('/assets/images/case-1.jpg') center/cover no-repeat !important;
+}
+
+.pricing-bg {
+  background: url('/assets/images/pricing-1.jpg') center/cover no-repeat !important;
+}
+
+.about-bg {
+  background: url('/assets/images/pricing-1.jpg') center/cover no-repeat !important;
+}
