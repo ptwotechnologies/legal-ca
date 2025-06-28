@@ -171,6 +171,7 @@ h6:before{
     background-repeat: no-repeat;
 }
 .header {
+    /* background-color: #51213d; */
     padding: 25px 0px;
     position: relative;
     z-index: 5;
@@ -302,7 +303,7 @@ h6:before{
     align-items: center;
     padding-left: 40px;
     margin-left: 30px;
-    border-left: 1px solid rgb(255 255 255 / 25%);
+    border-left: 1px solid rgb(255 255 255 / 25%)
 }
 .last_list figure{
     transition: all 0.3s ease-in-out;
@@ -1011,7 +1012,7 @@ h6:before{
 
 .violence-con{
     padding: 166px 0 178px;
-    background: url(../images/violence-backgroundimage.jpg);
+    background: url(/assets/images/about-5.jpg);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1577,7 +1578,7 @@ h6:before{
 
 /* Contact Info */
 
-.contact-con{
+/* .contact-con{
     padding: 148px 0 150px;
     background: var(--e-global-color-light-grayish-orange);
 }
@@ -1625,7 +1626,108 @@ h6:before{
 }
 .contact-con .contact-box a:hover {
     color: var(--e-global-color-very-soft-orange);
+} */
+
+
+
+
+
+
+
+
+
+
+.contact-con {
+    padding: 148px 0 150px;
+    background: var(--e-global-color-light-grayish-orange);
 }
+
+.contact-con .contact_content {
+    margin-bottom: 55px;
+}
+
+.contact-con .contact_content h6 {
+    width: 166px;
+    margin: 0 auto 20px;
+    text-align: left;
+}
+
+.contact-con .contact_content h2 {
+    margin-bottom: 32px;
+    color: var(--e-global-color-primary);
+}
+
+/* === Contact Card === */
+.contact-con .contact-box {
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    padding: 0;
+    margin: 0 auto 30px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: var(--e-global-color-white);
+    border: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+/* === Icon Section (Top Half) === */
+.contact-con .contact-box .contact-icon {
+    height: 50%;
+    padding: 25px 25px 5px; /* Reduced bottom padding from 10px to 5px */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-con .contact-box .contact-icon img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* === Text Section (Bottom Half) === */
+.contact-con .contact-box h5 {
+    color: var(--e-global-color-primary);
+    margin-bottom: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-con .contact-box .text {
+    padding: 0 25px 25px;
+}
+
+.contact-con .contact-box .text-size-14 {
+    transition: all 0.3s ease-in-out;
+}
+
+/* === Hover Effects === */
+.contact-con .contact-box:hover {
+    border: 1px solid var(--e-global-color-accent);
+}
+
+.contact-con .contact-box:hover .contact-icon {
+    transform: translateY(-5px);
+}
+
+.contact-con .contact-box:hover h5 {
+    color: var(--e-global-color-accent);
+}
+
+.contact-con .contact-box a:hover {
+    color: var(--e-global-color-very-soft-orange);
+}
+
+
+
+
+
 
 /* Map */
 
@@ -2103,7 +2205,7 @@ h6:before{
 
 /* Practice Area Page */
 
-.practice-con {
+/* .practice-con {
     padding: 144px 0 118px;
     background: var(--e-global-color-light-grayish-orange);
 }
@@ -2129,8 +2231,8 @@ h6:before{
     background: var(--e-global-color-white);
     position: relative;
     transition: all 0.3s ease-in-out;
-}
-.practice-con .box::before {
+} */
+/* .practice-con .box::before {
     content: "";
     height: 100%;
     width: 100%;
@@ -2144,8 +2246,8 @@ h6:before{
     background-repeat: no-repeat;
     background-position: center;
     transition: all 0.3s ease-in-out;
-}
-.practice-con .practice-box{
+} */
+/* .practice-con .practice-box{
     position: relative;
     z-index: 1;
 }
@@ -2165,8 +2267,8 @@ h6:before{
 .practice-con .practice-box p{
     margin-bottom: 30px;
     transition: all 0.3s ease-in-out;
-}
-.practice-con .practice-box i{
+} */
+/* .practice-con .practice-box i{
     font-size: 14px;
     width: 41px;
     height: 41px;
@@ -2179,26 +2281,157 @@ h6:before{
 }
 .practice-con .box:hover {
     background-color: var(--e-global-color-accent);
-}
-.practice-con .box:hover::before {
+} */
+/* .practice-con .box:hover::before {
     display: block;
     transition: all 0.3s ease-in-out;
-}
-.practice-con .box:hover .icon{
+} */
+/* .practice-con .box:hover .icon{
     filter: brightness(0) invert(1);;
-}
-.practice-con .box:hover h5,
+} */
+/* .practice-con .box:hover h5,
 .practice-con .box:hover p{
     color: var(--e-global-color-white);
-}
-.practice-con .box:hover i{
+} */
+/* .practice-con .box:hover i{
     color: var(--e-global-color-primary);
     background: var(--e-global-color-secondary);
 }
 .practice-con .box i:hover{
     color: var(--e-global-color-white);
     background: var(--e-global-color-primary);
+} */
+
+
+
+
+
+
+
+
+
+/* === Practice Area Section === */
+
+.practice-con {
+    padding: 144px 0 118px;
+    background: var(--e-global-color-light-grayish-orange);
 }
+
+/* Section Heading */
+.practice-con .practice_content {
+    margin-bottom: 55px;
+}
+
+.practice-con .practice_content h6 {
+    width: 166px;
+    margin: 0 auto 20px;
+    text-align: left;
+}
+
+.practice-con .practice_content h2 {
+    margin-bottom: 30px;
+    color: var(--e-global-color-primary);
+}
+
+/* === Practice Cards === */
+
+.practice-con .box {
+    width: 100%;
+    max-width: 350px;
+    height: 450px;
+    margin: 0 auto 30px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+    background: var(--e-global-color-white);
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Inner container */
+.practice-con .practice-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 35px 35px;
+    position: relative;
+    z-index: 1;
+}
+
+/* === Top Image Section === */
+.practice-con .practice-box .icon {
+    height: 50%;
+    padding: 35px 35px 15px; /* reduced bottom padding */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.practice-con .practice-box .icon img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Lift on hover */
+.practice-con .practice-box .icon:hover {
+    transform: translateY(-5px);
+}
+
+/* === Bottom Text Section === */
+.practice-con .practice-box h5 {
+    margin-bottom: 13px;
+    color: var(--e-global-color-primary);
+    transition: all 0.3s ease-in-out;
+}
+
+.practice-con .practice-box p {
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* === Icon Circle Button === */
+.practice-con .practice-box i {
+    font-size: 14px;
+    width: 41px;
+    height: 41px;
+    line-height: 41px;
+    border-radius: 100px;
+    text-align: center;
+    color: var(--e-global-color-white);
+    background: var(--e-global-color-accent);
+    transition: all 0.3s ease-in-out;
+}
+
+/* === Hover Effects === */
+.practice-con .box:hover {
+    background-color: var(--e-global-color-accent);
+}
+
+.practice-con .box:hover h5,
+.practice-con .box:hover p {
+    color: var(--e-global-color-white);
+}
+
+.practice-con .box:hover i {
+    color: var(--e-global-color-primary);
+    background: var(--e-global-color-secondary);
+}
+
+.practice-con .box i:hover {
+    color: var(--e-global-color-white);
+    background: var(--e-global-color-primary);
+}
+
+
+
+
 
 /* Practice Area Faq */
 
@@ -2229,6 +2462,12 @@ h6:before{
     right: -142px;
     top: -34px;
 }
+
+
+
+
+
+
 
 /* About Page */
 
@@ -3018,7 +3257,7 @@ h6:before{
     filter: brightness(0);
 }
 .legal_matter .last_list a{
-    color: var(--e-global-color-primary);
+    color:var(--e-global-color-primary);
 }
 .legal_matter .last_list a:hover{
     color: var(--e-global-color-accent);
@@ -3740,7 +3979,7 @@ to {
 
 /* Background Images Only */
 .services-bg {
-  background: url('/assets/images/heroimage.jpg') center/cover no-repeat !important;
+  background: url('/assets/images/case-1.jpg') center/cover no-repeat !important;
 }
 
 .contact-bg {
@@ -3752,11 +3991,11 @@ to {
 }
 
 .pricing-bg {
-  background: url('/assets/images/pricing-1.jpg') center/cover no-repeat !important;
+  background: url('/assets/images/case-1.jpg') center/cover no-repeat !important;
 }
 
 .about-bg {
-  background: url('/assets/images/pricing-1.jpg') center/cover no-repeat !important;
+  background: url('/assets/images/case-1.jpg') center/cover no-repeat !important;
 }
 
 
@@ -3773,4 +4012,55 @@ to {
 
 
 
+.card-fixed-size {
+    width: 350px;
+    height: 450px;
+    padding: 45px 35px 45px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background: var(--e-global-color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Image section - takes up roughly half the height */
+.card-fixed-size .practice-box .icon {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.card-fixed-size .practice-box .icon img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* Text section - remaining half */
+.card-fixed-size .practice-box {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Keep consistent spacing */
+.card-fixed-size .practice-box h5 {
+    margin: 15px 0 10px;
+}
+
+.card-fixed-size .practice-box p {
+    margin-bottom: 20px;
+}
+
+/* Arrow icon spacing */
+.card-fixed-size .practice-box i {
+    margin-top: auto;
+}
 
