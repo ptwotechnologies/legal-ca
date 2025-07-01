@@ -303,6 +303,16 @@ h6:before{
     padding-right: 0;
     margin-left: 0;
 }
+
+
+
+
+
+
+
+
+
+
 .last_list{
     display: flex;
     align-items: center;
@@ -322,6 +332,7 @@ h6:before{
     font-weight: 700;
     margin-left: 15px;
     color: var(--e-global-color-white);
+    /* color: white !important; */
     transition: all 0.3s ease-in-out;
 }
 .last_list a:hover{
